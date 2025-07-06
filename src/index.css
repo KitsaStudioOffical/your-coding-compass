@@ -8,26 +8,35 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 134 61% 41%;
+    --foreground: 60 9% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 147 51% 47%;
+    --card-foreground: 60 9% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 147 51% 47%;
+    --popover-foreground: 60 9% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 43 74% 66%;
+    --primary-foreground: 26 83% 14%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 159 64% 32%;
+    --secondary-foreground: 60 9% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 159 64% 32%;
+    --muted-foreground: 60 30% 85%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 27 87% 67%;
+    --accent-foreground: 26 83% 14%;
+
+    /* Game-specific colors */
+    --game-grass: 134 61% 41%;
+    --game-water: 205 87% 29%;
+    --game-road: 43 13% 20%;
+    --game-building: 27 87% 67%;
+    --game-industrial: 0 84% 60%;
+    --game-residential: 262 83% 58%;
+    --game-commercial: 43 74% 66%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;

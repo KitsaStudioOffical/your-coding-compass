@@ -61,6 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				game: {
+					grass: 'hsl(var(--game-grass))',
+					water: 'hsl(var(--game-water))',
+					road: 'hsl(var(--game-road))',
+					building: 'hsl(var(--game-building))',
+					industrial: 'hsl(var(--game-industrial))',
+					residential: 'hsl(var(--game-residential))',
+					commercial: 'hsl(var(--game-commercial))'
 				}
 			},
 			borderRadius: {
